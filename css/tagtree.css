@@ -1,0 +1,73 @@
+#tagtree {
+	position: fixed;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+  font: 11px Arial, Helvetica, sans-serif;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgb(237,237,237)),
+    color-stop(0, rgb(196,196,196))
+	);
+	background: -moz-linear-gradient(
+		center top,
+		rgb(237,237,237),
+		rgb(196,196,196)
+	);
+	height:30px;
+  line-height:30px;
+  color:#888;
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+}
+
+#tagtree ul li {
+	display: inline-block;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+#tagtree a {
+	display: inline-block;
+  position: relative;
+  padding: 0 20px 0 0;	
+  text-decoration: none;
+  color: #333333;
+	outline: none;
+}
+
+#tagtree a:hover {
+	color: #35acc5;
+}
+
+#tagtree li a:before,
+#tagtree li a:after {
+    border-right: 1px solid #666666;
+    content: '';
+    display: block;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    -moz-transform: skewX(45deg);
+    -ms-transform: skewX(45deg);
+    -o-transform: skewX(45deg);
+    -webkit-transform: skewX(45deg);
+    transform: skewX(45deg);   
+}
+#tagtree li a:after {
+    bottom: 0;
+    top: auto;
+    -moz-transform: skewX(-45deg);
+    -ms-transform: skewX(-45deg);
+    -o-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+#tagtree li:last-of-type:before, li:last-of-type:after {
+    display: none;
+}

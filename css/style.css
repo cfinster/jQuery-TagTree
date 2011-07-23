@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+}
+
+body{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: url(images/bg.jpg) scroll repeat 0 0 #707070;
+}
+
+#container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header{
+	margin: 30px 0 10px 0;
+	height: 150px;
+	background-color: #62646c;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#header h1{
+	font-family: 'Aclonica', serif;
+	font-weight: normal;
+	line-height:  150px;
+	text-align: center;
+	font-size: 80px;
+	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+#nav{
+	float: left;
+	width: 200px;
+	background-color: #62646c;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 10px;
+}
+
+#nav ul li a{
+	display: block;
+	text-decoration: none;
+	font-family: 'Aclonica', serif;
+	font-size: 16px;
+	color: #464646;
+	text-shadow: 0px 1px 1px #4d4d4d;
+}
+
+#nav ul li a:hover{
+	color: #ffffff;
+}
+
+#content{
+	margin: 10px 0 0 210px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+#content h1{
+	font-family: 'Aclonica', serif;
+	font-weight: normal;
+	font-size: 32px;
+	color: #555;
+	text-shadow: rgba(245, 245, 255, 0.35) 0 0px 0px, rgba(0, 0, 30, 0.08) 0px 2px 2px, rgba(0, 0, 30, 0.20) 0px 2px 1px, rgba(0, 0, 30, 0.40) 0px 2px 1px, rgba(0, 0, 0, 0.08) -5px 5px 2px;
+}
+
+#footer{
+	clear: left;
+	padding: 20px;
+	text-align: center;
+}
+
+#footer p{
+	font-size: 10px;
+	color: #bbb;
+}
