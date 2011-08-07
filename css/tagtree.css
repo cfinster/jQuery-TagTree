@@ -27,24 +27,25 @@
 #tagtree ul li {
 	display: inline-block;
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
-#tagtree a {
+#tagtree span {
 	display: inline-block;
   position: relative;
-  padding: 0 20px 0 0;	
+  padding: 0 15px 0 0;	
   text-decoration: none;
   color: #333333;
 	outline: none;
+	cursor: pointer;
 }
 
-#tagtree a:hover {
+#tagtree span:hover {
 	color: #35acc5;
 }
 
-#tagtree li a:before,
-#tagtree li a:after {
+#tagtree li span:before,
+#tagtree li span:after {
     border-right: 1px solid #666666;
     content: '';
     display: block;
@@ -59,7 +60,7 @@
     -webkit-transform: skewX(45deg);
     transform: skewX(45deg);   
 }
-#tagtree li a:after {
+#tagtree li span:after {
     bottom: 0;
     top: auto;
     -moz-transform: skewX(-45deg);
